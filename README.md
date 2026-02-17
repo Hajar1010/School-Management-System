@@ -3,8 +3,6 @@
 This project is a **Command-Line Interface (CLI) School Management System** written in C++. It allows a user (teacher or administrator) to manage student data efficiently in a simple console environment. The system demonstrates the use of **C++ fundamentals** such as structs, vectors, loops, conditional statements, functions, and basic input/output.  
 
 The main features of this system include:  
-efgev
-
 - **Add Student** – Add a new student with their name, age, and grade.  
 - **Display Students** – Show all students currently in the system.  
 - **Search Student** – Search for a student by name and display their details.  
@@ -73,4 +71,5 @@ By completing this project, you will:
 - Practice designing a **menu-driven console application**.  
 
 ---
+
 
