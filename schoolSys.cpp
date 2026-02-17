@@ -1,15 +1,12 @@
 #include<iostream>
 #include <string>
 #include <vector>
-
 using namespace std;
-
 struct STUDENT
 {   string name;
     int age;
     float grade;
 };
-
 vector<STUDENT> students;
 
 void addStudent();
@@ -21,7 +18,7 @@ void deleteStudent();
 
 int main (){
     int menu =0;
-    cout << "// ===============================\n// SCHOOL MANAGEMENT SYSTEM (CLI)\n// ===============================";
+    cout << "===============================\nSCHOOL MANAGEMENT SYSTEM (CLI)\n===============================";
     
     while(menu != 6){
         showMenu();
@@ -143,6 +140,9 @@ void deleteStudent(){
             break;
         }}
         
-    if (found) cout << del_name << "was deleted";
-    else cout <<del_name << "was not found";
+    if (found) 
+        cout << del_name << "was deleted";
+    else
+        cout <<del_name << "was not found";
     
+
